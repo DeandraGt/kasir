@@ -1,8 +1,8 @@
 from models.product import Product
+from models.food_product import FoodProduct
+from models.digital_product import DigitalProduct
 
 product = Product("P001", "Indomie", 3000, 20)
-FoodProduct("F001", "Roti", 7000, 8, "2026-12-01")
-DigitalProduct("D001", "E-Book Python", 50000, 99)
 print("Produk pertama:", product.name)
 print("Subtotal 2 Indomie =", product.subtotal(2))
 
