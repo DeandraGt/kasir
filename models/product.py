@@ -40,3 +40,7 @@ class Product:
     @price.setter
     def price(self, value):
         return self.change_price(value)
+    
+    def get_description(self):
+        # Perilaku dasar. Subclass boleh menggantinya (override).
+        return self.name
